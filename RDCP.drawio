@@ -1,9 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T19:43:18.707Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="hcmkREwUGPt0lSjWzHhe" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T13:49:08.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qu0-5C8YAEbgy6hZIDy4" version="21.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4376" dy="2203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5795" dy="3312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="E6RUVvbPqemEtvHyYMZb-0" value="Physical Location" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <object label="Physical Location and ESX Cluster" id="E6RUVvbPqemEtvHyYMZb-0">
+          <mxCell parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        </object>
         <mxCell id="GLMG_zGvKMhkzmzq82GO-7" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E6RUVvbPqemEtvHyYMZb-0">
           <mxGeometry x="1010" y="1180" width="60" height="30" as="geometry" />
         </mxCell>
@@ -23,7 +25,10 @@
           <mxGeometry x="2530" y="1180" width="290" height="160" as="geometry" />
         </mxCell>
         <mxCell id="GLMG_zGvKMhkzmzq82GO-5" value="r" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="E6RUVvbPqemEtvHyYMZb-0">
-          <mxGeometry x="-120" y="240" width="2550" height="1880" as="geometry" />
+          <mxGeometry x="-120" y="240" width="2630" height="3220" as="geometry" />
+        </mxCell>
+        <mxCell id="GLMG_zGvKMhkzmzq82GO-22" value="" style="swimlane;startSize=0;" vertex="1" parent="GLMG_zGvKMhkzmzq82GO-5">
+          <mxGeometry x="-30" y="-30" width="2660" height="3250" as="geometry" />
         </mxCell>
         <mxCell id="GLMG_zGvKMhkzmzq82GO-15" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;IBM Cloud Montreal&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="E6RUVvbPqemEtvHyYMZb-0">
           <mxGeometry x="-560" y="2843" width="340" height="60" as="geometry" />
@@ -35,6 +40,12 @@
         </mxCell>
         <mxCell id="GLMG_zGvKMhkzmzq82GO-13" value="IBM Cloud Montreal" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="E6RUVvbPqemEtvHyYMZb-0">
           <mxGeometry x="-120" y="2170" width="2610" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="GLMG_zGvKMhkzmzq82GO-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="E6RUVvbPqemEtvHyYMZb-0">
+          <mxGeometry x="1000" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLMG_zGvKMhkzmzq82GO-24" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;ESX Cluster: TOR_prod&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E6RUVvbPqemEtvHyYMZb-0">
+          <mxGeometry x="1880" y="142" width="420" height="30" as="geometry" />
         </mxCell>
         <object label="Network Zones " id="E6RUVvbPqemEtvHyYMZb-1">
           <mxCell style="" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -132,7 +143,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="un8qZvG-r8T_PUPNxrcj-57" value="WHITE ZONE" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" parent="E6RUVvbPqemEtvHyYMZb-1" vertex="1">
-          <mxGeometry x="20" y="1300" width="2250" height="1800" as="geometry" />
+          <mxGeometry x="20" y="1300" width="2250" height="1860" as="geometry" />
         </mxCell>
         <mxCell id="E6RUVvbPqemEtvHyYMZb-2" value="Network communication" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="GLMG_zGvKMhkzmzq82GO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="E6RUVvbPqemEtvHyYMZb-2" source="E6RUVvbPqemEtvHyYMZb-66">
