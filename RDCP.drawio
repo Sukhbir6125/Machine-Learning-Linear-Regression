@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T17:02:14.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="b9hufzV_0P4d661aG8Uz" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T17:40:22.658Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dVPFqJg1GldeF-lnaP_K" version="21.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4967" dy="2760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1956" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <object label="Physical Location and ESX Cluster" id="E6RUVvbPqemEtvHyYMZb-0">
@@ -74,6 +74,12 @@
         </mxCell>
         <mxCell id="yFpE0jZaqARGJzmsBSRD-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;IBM Cloud Backbone&lt;br&gt;TOR_XCR (Router)&lt;br&gt;MON_XCR (Router)&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="un8qZvG-r8T_PUPNxrcj-57">
           <mxGeometry x="-159" y="1050" width="2579" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="un8qZvG-r8T_PUPNxrcj-55" value="&amp;nbsp;BLUE ZONE&amp;nbsp;&lt;br&gt;i3TJMPGRSRV02PR (Linux)" style="swimlane;whiteSpace=wrap;html=1;startSize=50;strokeColor=#3333FF;" parent="GLMG_zGvKMhkzmzq82GO-22" vertex="1">
+          <mxGeometry x="420" y="80" width="1660" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="E6RUVvbPqemEtvHyYMZb-12" value="HTPPS NAT IP" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#3a414a;spacing=0;fillColor=#ffffff;strokeWidth=1.5;strokeColor=none;lucidId=gIFOy_4toG0e;" parent="un8qZvG-r8T_PUPNxrcj-55" vertex="1">
+          <mxGeometry x="871" y="70" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="GLMG_zGvKMhkzmzq82GO-36" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ABM&lt;br&gt;(External users)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="E6RUVvbPqemEtvHyYMZb-0" vertex="1">
           <mxGeometry x="2600" y="200" width="260" height="710" as="geometry" />
@@ -157,12 +163,6 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="un8qZvG-r8T_PUPNxrcj-55" value="&amp;nbsp;BLUE ZONE&amp;nbsp;&lt;br&gt;i3TJMPGRSRV02PR (Linux)" style="swimlane;whiteSpace=wrap;html=1;startSize=50;strokeColor=#3333FF;" parent="E6RUVvbPqemEtvHyYMZb-1" vertex="1">
-          <mxGeometry x="190" y="290" width="1660" height="440" as="geometry" />
-        </mxCell>
-        <mxCell id="E6RUVvbPqemEtvHyYMZb-12" value="HTPPS NAT IP" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#3a414a;spacing=0;fillColor=#ffffff;strokeWidth=1.5;strokeColor=none;lucidId=gIFOy_4toG0e;" parent="un8qZvG-r8T_PUPNxrcj-55" vertex="1">
-          <mxGeometry x="871" y="70" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="un8qZvG-r8T_PUPNxrcj-56" value="GREEN ZONE&lt;br&gt;JUMPHOST&lt;br&gt;i3TJMPGRSRV01PR (Windows)&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#97D077;startSize=60;" parent="E6RUVvbPqemEtvHyYMZb-1" vertex="1">
           <mxGeometry x="40" y="890" width="2380" height="350" as="geometry" />
